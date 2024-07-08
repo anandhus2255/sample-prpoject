@@ -1,0 +1,270 @@
+@media only screen and ((min-width:300px) and (max-width:450px)){
+    .navi{
+        width: 75%;
+    }
+    body{
+        height: min-content;
+    }
+    .hsearch , .hicons{
+        display: none;
+    }
+    .image img{
+        width: 300px;
+        height: 120px;
+    }
+    .image{
+        height: 150px;
+        width: 320px;
+    }
+    .hloc{
+        width: 150px;
+        height: 50px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        margin-top: 10px;
+        margin-left: 35px;
+    }
+    .main{
+        margin-top: 95px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 90%;
+    }
+    .head{
+        width: 100%;
+        padding-left: 0;
+        margin-top: 0;
+    }
+    .items{
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+        margin-top: 15px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .items1{
+        width: 72px;
+        height: 113px;
+        margin: 1px;
+    }
+    .items1 img{
+        width: 72px;
+        height: 72px;
+    }
+    .items1 a{
+        font-family: "Lato",sans-serif;
+        font-size: 10px;
+        margin-top: 1px;
+    }
+    .price1 h3{
+        font-size: 14px;
+        /* line-height: 22.4px; */
+        font-family: Lato Bold, sans-serif;
+        color: #0d0d0e;
+        }
+        .price1{
+            width: 29px;
+            height: 23px;
+            margin-right: 15px;
+        }
+        .sprice{
+            width: 34px;
+            height: 18.8px;
+            margin-right: 15px;
+        }
+        .discount{
+            width: 51px;
+            height: 18.8px;
+        }
+    .smallcard{
+        width: 100%;
+        height: 44px;
+    }
+    .image1{
+        width: 22px;
+        height: 26px;
+        margin-right: 15px;
+    }
+    .image1 img{
+        width: 18px;
+        height: 18px;
+    }
+    .sellercard1{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: auto;
+        padding-left: 0;
+        justify-content: center;
+        align-items: center;
+        height: 1600px;
+    }
+    .sellercard{
+        padding-left: 105px;
+    }
+    .smallcard{
+        height: min-content;
+    }
+    .sellerdetails{
+        width: 200px;
+        height: 170px;
+    }
+    .seller{
+        width: 100%;
+    }
+    .sellercard img{
+        width: 200px;
+        height: 130px;
+    }
+    .image1 img{
+        width: 20px;
+        height: 20px;
+    }
+    .smallcard3{
+        width: 100%;
+        height: 28px;
+    }
+    .cusimg{
+        display: grid;
+        grid-template-columns:repeat(1,1fr) ;
+        grid-template-rows: auto;
+        padding-left: 75px;
+        justify-content: center;
+        height: min-content;
+    }
+    .coustomer{
+        height: min-content;
+        justify-content: center;
+    }
+    .review{
+        height: 750px;
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .rev{
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 450px;
+    }
+    .revp{
+        width: 100%;
+        height: 390px;
+    }
+    .revp p{
+        font-size: 12px;
+        margin-top: 0;
+    }
+    .revhead{
+        width: 100%;
+        /* height: 100px; */
+        height: 80px;
+    }
+    .revhead p{
+        font-size: 13px;
+        margin-top: 0px;
+        /* height: 150px; */
+
+    }
+    .verticle{
+        margin-top: 5px;
+    }
+    .links{
+        height: min-content;
+    }
+    .mainlinks{
+        height: 850px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+        background-color: rgb(255, 255, 255);
+        justify-content: flex-start;
+        margin-top: 0px;
+
+    }
+    .keep{
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    .rev{
+        height: 260px;
+    }
+
+    .components{
+        margin-top: 0;
+    }
+    .visa{
+        height: 45px;
+    }
+    .socialmedia, .liinks, .contactus{
+        width: 375px;
+        height:  min-content;
+        margin-left: 20px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .usefulllinks{
+        height: 22px;
+    }
+    .linksa1{
+        height: min-content;
+    }
+    .citiesws{
+        width: 335px;
+        height: min-content;
+        background-color: rgb(255, 255, 255);
+    }
+    .place{
+        width: 100%;
+        height: min-content;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+    }
+    .cities{
+        width: 100%;
+        height: 400px;
+        margin-top: 5px;
+        /* background-color: #cac1b3ae; */
+    }
+    .contactdetails{
+        width: 100%;
+        height: min-content;
+    }
+    .contactush1{
+        margin-top: 40px;
+    }
+    .footer1{
+        width: 100%;
+    }
+    .populars, .pchicken, .pmutton, .pfish, .pmeatm, .prtc, .popular{
+        height: min-content;
+        margin-bottom: 15px;
+    }
+    .popularse{
+        margin-top: 35px;
+        height: min-content;
+    }
+    .footer, .footer1, .footerhead, .fotterdetails, .popularh{
+        height: min-content;
+    }
+    .places{
+        width: min-content;     
+    }
+    .places a{
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 12px;
+    }
+    .place{     
+    }
+}

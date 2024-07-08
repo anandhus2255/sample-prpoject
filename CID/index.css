@@ -1,0 +1,242 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    width: 75px;
+    height: 75px;
+margin: 20px;
+}
+.main1{
+    display: flex;
+}
+.header1{
+/* margin: 40px; */
+display: flex;
+align-items: center;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: bold;
+font-size: 20px;
+}
+.frontdesk{
+    width: 60%;
+    height: 630px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.frontdeskimg{
+    /* margin-top: 200px; */
+    width: 600px;
+    height: 500px;
+}
+.login{
+    width: 40%; 
+    height: 630px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.mainheading{
+    background-color: rgb(255, 255, 255);
+}
+
+.heading{
+    background-color: rgb(255, 255, 255);
+    margin-top: 40px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+display: flex;
+height: 70px;
+line-height: 0%;
+}
+.info{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.loginform
+{
+    height: 190px;
+    background-color: rgb(255, 255, 255);justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+.input{
+    width: 90%;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+}
+.mail{
+    width: 90%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #7f7e7e34;
+    background-color: rgba(248, 246, 246, 0.878);
+}
+.mailimg{
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+  
+}
+.mail input{
+    width: 80%;
+    height: 35px;
+    border: none;
+    outline: none;
+}
+.password{
+    width: 90%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #7f7e7e34;
+    background-color: rgba(248, 246, 246, 0.878);
+}
+.password input{
+    width: 80%;
+    height: 35px;
+  border: none;
+  outline: none;
+}
+.mail input::placeholder{
+    padding-left: 10px;
+}
+.mail input::placeholder{
+    padding-left: 10px;
+}
+.remember{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+.rememberme{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+}
+.forgotpass{
+    margin-left: 60px;
+    text-decoration: none;
+    color: #000000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 600;
+}
+.buttons{
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inputbuttonl{
+width: 150px;
+height: 40px;
+/* margin-top: 10px; */
+margin-right: 20px;
+margin-left: 20px;
+background-color: #5aa7ff;
+border: none;
+border-radius: 10px;
+color: #ffffff;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 700;
+/* margin-bottom: 20px; */
+font-size: 16px;
+}
+.inputbutton{
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    /* border: none; */
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 16px;
+    
+    }
+    .but1{
+        width: 150px;
+        height: 40px;
+        background-color: #ffffff;
+        outline: none;
+        border: none;
+        border-radius: 8px;
+    }
+    .media{
+        width: 100%;
+        height: 150px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .medias{
+        margin-bottom: 20px;
+        background-color: #ffffff;
+        /* display: flex; */
+        font-size: medium;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .mediaicons{
+        width: 100px;
+        height: 50px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .mediaicons1{
+        width: 60px;
+        height: 60px;
+        margin: 10px;
+    }
+    
+    .mediaicons2{
+        width: 55px;
+        height: 55px;
+        margin: 10px;
+    }
+    .mediaicons3{
+        width: 80px;
+        height: 80px;
+        margin: 10px;
+    }
